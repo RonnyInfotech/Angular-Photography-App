@@ -5,7 +5,7 @@
     <div class="container">
       <div class="header-inner d-none d-lg-flex">
         <div class="header-logo">
-          <a href="index.html">
+          <a routerLink="/">
             <img src="assets/img/logo/logo-light.png" alt="logo">
           </a>
         </div>
@@ -17,23 +17,23 @@
           </button>
           <nav class="main-navigation">
             <ul>
-              <li><a href="index.html">HOME</a>
+              <li><a routerLink="/">HOME</a>
                 <ul>
-                  <li><a href="index.html">Home Default Version</a></li>
+                  <li><a routerLink="/">Home Default Version</a></li>
                   <li><a href="index-dark.html">Home Dark Version</a></li>
                 </ul>
               </li>
-              <li><a href="photo-gallery.html">Photo Gallery</a></li>
+              <li><a routerLink="/photo-gallery">Photo Gallery</a></li>
               <li><a routerLink="/two-column-gallery">2 Column Gallery</a></li>
               <li><a routerLink="/four-column-gallery">4 Column Gallery</a></li>
-              <li><a href="photo-details.html">Photo Details</a></li>
+              <li><a routerLink="/photo-details">Photo Details</a></li>
             </ul>
           </nav>
         </div>
       </div>
       <div class="mobile-menu-wrapper d-block d-lg-none">
         <div class="mobile-menu clearfix">
-          <a href="index.html" class="mobile-logo">
+          <a routerLink="/" class="mobile-logo">
             <img src="assets/img/logo/logo-dark.png" alt="mobile logo">
           </a>
         </div>
@@ -48,8 +48,8 @@
       <div class="cr-breadcrumb">
         <h3>PHOTO DETAILS</h3>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="photo-gallery.html">Photo Gallery</a></li>
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/photo-gallery">Photo Gallery</a></li>
           <li>Photo Details</li>
         </ul>
       </div>
