@@ -10,6 +10,7 @@ export class TwoColumnGalleryComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }

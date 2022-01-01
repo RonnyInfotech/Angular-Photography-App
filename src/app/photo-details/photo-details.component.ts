@@ -10,6 +10,7 @@ export class PhotoDetailsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
